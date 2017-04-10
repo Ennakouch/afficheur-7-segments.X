@@ -9,7 +9,7 @@ static char ascii7Segments[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 
 
 void afficheurEtablitDigits(char nombre) {
     if(nombre>99){
-         nombre=99; // à 99
+         nombre=99; // à  99
      }
     
      digits[0] = nombre/10;
